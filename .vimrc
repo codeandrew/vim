@@ -95,24 +95,10 @@ let python_highlight_all=1
 "" Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 
-"set background=dark
-"colorscheme solarized
-"" GUI Script
-"if has('gui_running')
-  "set background=dark
-  "colorscheme solarized
-"else
-  "colorscheme zenburn
-"endif
-
-"call togglebg#map("<F5>")
-
 "" File Browsing 
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-
 source ~/.vim/plugin/nerdtree.vim
-
 
 "" Super Searching 
 Plugin 'kien/ctrlp.vim'
@@ -120,6 +106,21 @@ Plugin 'kien/ctrlp.vim'
 "" GIT integration 
 Plugin 'tpope/vim-fugitive'
 
-
 "" Syntax Import 
 source ~/.vim/syntax/python.vim
+source ~/.vim/syntax/javascript.vim
+
+"" VueJs
+Plugin 'posva/vim-vue'
+let g:vue_disable_pre_processors = 1
+
+"" HTML5 syntax 
+Plugin 'othree/html5.vim'
+
+"" Other JS syntax
+Plugin 'othree/yajs.vim'
+
+"" SCSS Syntax 
+Plugin 'cakebaker/scss-syntax.vim'
+
+
