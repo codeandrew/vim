@@ -8,5 +8,5 @@ echo "Finish copying vimrc"
 vim +PluginInstall +qall
 echo "Finish Plugin Install in Vim" 
 
-cp -rfvi plugin syntax ~/.vim
+cp -rfvi .vim/plugin .vim/syntax ~/.vim
 echo "Finish copying syntax and plugin configs"
