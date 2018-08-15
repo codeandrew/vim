@@ -71,11 +71,6 @@ au BufNewFile,BufRead *.js, *.html, *.css
 "" UTF-8 Support 
 set encoding=utf-8
 
-"" Auto Complete
-Bundle 'Valloric/YouCompleteMe'
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
 "python with virtualenv support
 py << EOF
 import os
